@@ -36,7 +36,7 @@ function App() {
     <div className='page'>
 
       <div className='header'>
-        <span > Que essa seja a melhor viajem da sua vida até então, mas que jamais seja a última </span>
+        <span > Que essa seja a melhor viajem da sua vida, mas nunca seja a última </span>
       </div>
 
       <div className='parent' >
