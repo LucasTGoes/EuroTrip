@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  @media (max-width: 768px) {
+    margin-top: 3.7rem;
+  }
+
+  img {
+    width: 33.4vw;
+    height: 80vh;
+
+    @media (max-width: 768px) {
+      height: 39vh;
+    }
+  }
+
+}
+
+.cronback {
+  top: 20%;
+  left: 36.5%;
+  background-color: white;
+  border: 2px solid black;
+  padding: 0rem 1rem;
+  display: flex;
+  position: absolute;
+  border-radius: 20px;
+  min-width: 480px;
+
+  @media (max-width: 768px) {
+    min-width: 310px;
+    left: 10%;
+    top: 11%;
+  }
+
+
+  p {
+    font-weight: 700;
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+
+  }
+}
+
+.header {
+  background-color: white;
+  width: 970px;
+  height: 100px;
+  position: absolute;
+  top: 1rem;
+  left: 25%;
+  border-radius: 20px;
+  padding: 0 1rem;
+
+  @media (max-width: 768px) {
+    min-width: 300px;
+    left: 0%;
+    top: 0%;
+    width: 400px;
+    height: 50px;
+    margin: 0.2rem;
+  }
+
+  span {
+
+    margin-top: 3.5rem;
+    font-weight: 700;
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+
+    opacity: 1;
+    color: black;
+
+    @media (max-width: 768px) {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.footer {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  img {
+    height: 20vh;
+    width: 34vw;
+    opacity: 0.2;
+
+    @media (max-width: 768px) {
+      height: 16vh;
+    }
+  }
+
+  span {
+    margin-top: 2.7rem;
+    font-weight: 700;
+    font-family: 'Parisienne', cursive;
+    font-size: 6rem;
+    position: absolute;
+    opacity: 1;
+    color: black;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    height: 100vh;
+    width: 100vw;
+  }
+}
