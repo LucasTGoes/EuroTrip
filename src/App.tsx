@@ -46,6 +46,9 @@ function App() {
         <img src="arch.jpg" alt="Paris" />
         <img src="belem.jpg" alt="Lisbon" />
         <img src="eye.jpg" alt="London" />
+        <img src="amst1.jpg" alt="Paris" />
+        <img src="amst2.jpg" alt="Lisbon" />
+        <img src="porto.jpg" alt="London" />
 
         <div className='cronback'>
           <p id="demo"></p>
@@ -59,6 +62,7 @@ function App() {
         <img src="franca.png" alt="França" />
         <img src="portugal.png" alt="Portugal" />
         <img src="inglaterra.png" alt="Inglaterra" />
+        <img src="hol.png" alt="Holanda" />
       </div>
     </div>
 

@@ -46,7 +46,7 @@
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 2fr;
+  grid-template-rows: 3fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 
@@ -56,10 +56,10 @@
 
   img {
     width: 33.4vw;
-    height: 80vh;
+    height: 60vh;
 
     @media (max-width: 768px) {
-      height: 40vh;
+      height: 27vh;
     }
   }
 
@@ -137,12 +137,12 @@
   flex-direction: row;
 
   img {
-    height: 20vh;
-    width: 34vw;
+    height: 12vh;
+    width: 25vw;
     opacity: 0.2;
 
     @media (max-width: 768px) {
-      height: 16vh;
+      height: 12vh;
     }
   }
 
