@@ -51,7 +51,8 @@ function App() {
         <img src="porto.jpg" alt="London" />
 
         <div className='cronback'>
-          <p id="demo"></p>
+          {/* <p id="demo"></p> */}
+          <p>Para de olhar todo dia, mocinha</p>
         </div>
       </div>
 
