@@ -52,7 +52,7 @@ function App() {
 
         <div className='cronback'>
           {/* <p id="demo"></p> */}
-          <p>Para de olhar todo dia, mocinha</p>
+          <p>Você não tem ideia do quanto eu te amo</p>
         </div>
       </div>
 
