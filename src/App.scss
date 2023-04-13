@@ -51,7 +51,7 @@
   grid-row-gap: 0px;
 
   @media (max-width: 768px) {
-    margin-top: 2.5rem;
+    margin-top: 6.8rem;
   }
 
   img {
@@ -59,7 +59,7 @@
     height: 60vh;
 
     @media (max-width: 768px) {
-      height: 27vh;
+      height: 26vh;
     }
   }
 
@@ -81,14 +81,15 @@
   @media (max-width: 768px) {
     min-width: 310px;
     left: 6%;
-    top: 11%;
+    top: 5%;
   }
 
   p {
     font-weight: 700;
     font-family: 'Parisienne', cursive;
     font-size: 2rem;
-margin-top: 0.7rem;
+    margin-top: 0.7rem;
+
     @media (max-width: 768px) {
       font-size: 1.3rem;
     }
@@ -110,7 +111,7 @@ margin-top: 0.7rem;
     min-width: 300px;
     left: 0%;
     top: 0%;
-    width: 330px;
+    width: 100%;
     height: 20px !important;
     // margin: 0.2rem;
   }
@@ -125,8 +126,7 @@ margin-top: 0.7rem;
     color: black;
 
     @media (max-width: 768px) {
-      margin-left: 11px;
-      font-size: 19px
+      font-size: 21px
     }
   }
 }
@@ -143,12 +143,12 @@ margin-top: 0.7rem;
     opacity: 0.2;
 
     @media (max-width: 768px) {
-      height: 12vh;
+      height: 9vh;
     }
   }
 
   span {
-    margin-top: 2.7rem;
+    margin-top: 2.5rem;
     font-weight: 700;
     font-family: 'Parisienne', cursive;
     font-size: 6rem;
@@ -157,7 +157,7 @@ margin-top: 0.7rem;
     color: black;
 
     @media (max-width: 768px) {
-      margin-top: 2rem;
+      margin-top: 1rem;
       font-size: 1.8rem;
     }
   }
