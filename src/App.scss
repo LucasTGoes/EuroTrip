@@ -51,7 +51,7 @@
   grid-row-gap: 0px;
 
   @media (max-width: 768px) {
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
   }
 
   img {
@@ -75,6 +75,8 @@
   position: absolute;
   border-radius: 20px;
   min-width: 480px;
+  height: 50px;
+
 
   @media (max-width: 768px) {
     min-width: 310px;
@@ -82,12 +84,11 @@
     top: 11%;
   }
 
-
   p {
     font-weight: 700;
     font-family: 'Parisienne', cursive;
     font-size: 2rem;
-
+margin-top: 0.7rem;
     @media (max-width: 768px) {
       font-size: 1.3rem;
     }
@@ -98,7 +99,7 @@
 .header {
   background-color: white;
   width: 970px;
-  height: 50px;
+  height: 70px;
   position: absolute;
   top: 1rem;
   left: 25%;
@@ -110,22 +111,22 @@
     left: 0%;
     top: 0%;
     width: 330px;
-    height: 25px;
-    margin: 0.2rem;
+    height: 20px !important;
+    // margin: 0.2rem;
   }
 
   span {
-
     margin-top: 3.5rem;
     font-weight: 700;
     font-family: 'Parisienne', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
 
     opacity: 1;
     color: black;
 
     @media (max-width: 768px) {
-      font-size: 1.3rem;
+      margin-left: 11px;
+      font-size: 19px
     }
   }
 }
